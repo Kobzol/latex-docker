@@ -1,3 +1,8 @@
+TexStudio setup:
+Options -> Commands -> PdfLatex:
+".../latex-docker/latexdockercmd.sh" pdflatex -synctex=1 -interaction=nonstopmode -shell-escape %.tex
+".../latex-docker/latexdockercmd.sh" bibtex %.aux"
+
 Latex docker container [![Docker hub](https://img.shields.io/docker/pulls/blang/latex.svg)](https://hub.docker.com/r/blang/latex/)
 ======================
 
