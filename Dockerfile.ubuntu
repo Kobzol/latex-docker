@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:bionic
 MAINTAINER Benedikt Lang <mail@blang.io>
 ENV DEBIAN_FRONTEND noninteractive
 
